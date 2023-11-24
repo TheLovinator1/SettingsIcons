@@ -1,20 +1,59 @@
 /**
- * @name SettingsIcons
- * @author Saltssaumure, DevilBro
- * @authorLink https://github.com/Saltssaumure
- * @description Adds icons to Discord settings, for use with Vencord plugin ThemeAttributes.
+ * @name SettingsIconsButTheTimeIs00:00
+ * @author Saltssaumure, DevilBro, TheLovinator
+ * @description A DLC for DiscordNight by KillYoy
  * @license GPL-2.0
- * @version 1.1
- * @invite uy8nKQVatp
- * @source https://github.com/MiniDiscordThemes/SettingsIcons
- * @donate https://ko-fi.com/saltssaumure
+ * @version 1.1.1
 */
 
-@import url("https://minidiscordthemes.github.io/SettingsIcons/main.min.css");
+.sidebar__9e3e2 .side_b4b3f6 .item__48dda[data-tab-id="Powermode Settings"]::before {
+    background-image: url(https://raw.githubusercontent.com/TheLovinator1/SettingsIcons/master/svg/powermodesettings.svg);
+}
 
-/* See https://github.com/MiniDiscordThemes/SettingsIcons#customisation for customisation settings. */
-:root {
-    --settingsicons: 1;
-    --si-size: 18px;
-    --si-gap: 14px;
+.sidebar__9e3e2 .side_b4b3f6 .item__48dda[data-tab-id=Experiments]::before {
+    background-image: url(https://raw.githubusercontent.com/TheLovinator1/SettingsIcons/master/svg/experiments.svg);
+}
+
+.sidebar__9e3e2 .side_b4b3f6 .item__48dda[data-tab-id="Developer Options"]::before {
+    background-image: url(https://raw.githubusercontent.com/TheLovinator1/SettingsIcons/master/svg/developeroptions.svg);
+}
+
+.sidebar__9e3e2 .side_b4b3f6 .item__48dda[data-tab-id="Hotspot Options"]::before {
+    background-image: url(https://raw.githubusercontent.com/TheLovinator1/SettingsIcons/master/svg/hotspotoptions.svg);
+}
+
+.sidebar__9e3e2 .side_b4b3f6 .item__48dda[data-tab-id="Dismissible Content Options"]::before {
+    background-image: url(https://raw.githubusercontent.com/TheLovinator1/SettingsIcons/master/svg/dismissiblecontentoptions.svg);
+}
+
+.sidebar__9e3e2 .side_b4b3f6 .item__48dda[data-tab-id="Payment Flow Modals"]::before {
+    background-image: url(https://raw.githubusercontent.com/TheLovinator1/SettingsIcons/master/svg/paymentflowmodals.svg);
+}
+
+.sidebar__9e3e2 .side_b4b3f6 .item__48dda[data-tab-id="Text Playground"]::before {
+    background-image: url(https://raw.githubusercontent.com/TheLovinator1/SettingsIcons/master/svg/textplayground.svg);
+}
+
+.sidebar__9e3e2 .side_b4b3f6 .item__48dda[data-tab-id="Text Component"]::before {
+    background-image: url(https://raw.githubusercontent.com/TheLovinator1/SettingsIcons/master/svg/textcomponent.svg);
+}
+
+.sidebar__9e3e2 .side_b4b3f6 .item__48dda[data-tab-id=VencordPatchHelper]::before {
+    background-image: url(https://raw.githubusercontent.com/TheLovinator1/SettingsIcons/master/svg/vencordpatchhelper.svg);
+}
+
+.sidebar__9e3e2 .side_b4b3f6 .item__48dda[data-tab-id=Vesktop]::before {
+    background-image: url(https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f431.svg);
+}
+
+.sidebar__9e3e2 .side_b4b3f6 .item__48dda[data-tab-id=VANITY_URL]::before {
+    background-image: url(https://raw.githubusercontent.com/TheLovinator1/SettingsIcons/master/svg/vanityurl.svg);
+}
+
+.sidebar__9e3e2 .side_b4b3f6 .item__48dda[data-tab-id=ROLE_SUBSCRIPTIONS]::before {
+    background-image: url(https://raw.githubusercontent.com/TheLovinator1/SettingsIcons/master/svg/rolesubscriptions.svg);
+}
+
+.sidebar__9e3e2 .side_b4b3f6 .item__48dda[data-tab-id=PERMISSIONS]::before {
+    background-image: url(https://raw.githubusercontent.com/TheLovinator1/SettingsIcons/master/svg/permissions.svg);
 }
